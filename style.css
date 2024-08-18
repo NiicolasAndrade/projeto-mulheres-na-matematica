@@ -211,8 +211,8 @@ aside li i {
 /* Responsividade */
 @media (max-width: 768px) {
   .sobre-nos {
-    padding: 10px;
-    max-height: 300px; /* Ajusta a altura máxima em telas menores */
+      padding: 10px;
+      max-height: 300px; /* Ajusta a altura máxima em telas menores */
   }
 }
 
@@ -492,3 +492,27 @@ footer a:hover {
   list-style: disc;
   padding-left: 20px;
 }
+/* Seção "Sobre Nós" com texto branco */
+.sobre-nos {
+  max-width: 800px;
+  max-height: 500px; /* Altura máxima ajustável */
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  text-align: center;
+  overflow-y: auto; /* Habilita a barra de rolagem vertical */
+  color: #ffffff; /* Cor do texto em branco */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .sobre-nos {
+      padding: 10px;
+      max-height: 300px; /* Ajusta a altura máxima em telas menores */
+  }
+}
+p{color: white;}
+h2{color: white;}
+li{color: white;}
